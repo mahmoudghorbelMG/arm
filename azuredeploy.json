@@ -14,7 +14,7 @@
         "location": "[resourceGroup().location]",
         "kind": "StorageV2",
         "sku": {
-            "name": "[parameters('storageAccountType')]",
+            "name": "[parameters('parameter1')]"
             "tier": "Standard"
         }
     }],
