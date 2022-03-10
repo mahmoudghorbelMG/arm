@@ -4,19 +4,21 @@
     "parameters": {},
     "functions": [],
     "variables": {},
-    "resources": [{ 
-        "name": "learnexercise12321",
-        "type": "Microsoft.Storage/storageAccounts",
-        "apiVersion": "2021-04-01",
-        "tags": {
-            "displayName": "learnexercise12321"
-        },
-        "location": "[resourceGroup().location]",
-        "kind": "StorageV2",
-        "sku": {
-            "name": "[parameters('parameter1')]"
-            "tier": "Standard"
+    "resources": [
+        { 
+            "name": "learnexercise12321",
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-04-01",
+            "tags": {
+                "displayName": "learnexercise12321"
+            },
+            "location": "[resourceGroup().location]",
+            "kind": "StorageV2",
+            "sku": {
+                "name": "[parameters('parameter1')]",
+                "tier": "Standard"
+            }
         }
-    }],
+    ],
     "outputs": {}
 }
